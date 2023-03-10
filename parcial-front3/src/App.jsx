@@ -1,12 +1,12 @@
 import "./App.css";
-import { Card } from "./Components/Card/Card";
+import Form  from "./Components/Form/Form";
 
 function App() {
+
   return (
     <div className="App">
-      <h1>Carga de estudiantes</h1>
-      <form></form>
-      <Card prop="Card"></Card>
+      <h1>Carga de Mascotas</h1>
+      <Form></Form>
     </div>
   );
 }
